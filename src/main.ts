@@ -2,5 +2,6 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import Vant from 'vant';
 import 'vant/lib/index.css';
-import '../public/rem'
-createApp(App).use(Vant).mount('#app')
+import './utils/rem'
+import CcgUI from "./components/";
+createApp(App).use(Vant).use(CcgUI).mount('#app')

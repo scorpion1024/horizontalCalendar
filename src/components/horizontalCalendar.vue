@@ -38,7 +38,7 @@
     </van-config-provider>
   </div>
 </template>
-<script setup lang="ts">
+<script setup lang="ts" name="horizontalCalendar">
 import { ref, reactive, nextTick, watchEffect, onBeforeMount } from "vue";
 import { getDayName, formatDate, getWeekByDate1 } from "../utils/date";
 import type { CalendarDayItem } from "vant";
