@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "caochenguang-ui": "^0.0.1",
     "vant": "^4.0.10",
     "vue": "^3.2.45"
   },

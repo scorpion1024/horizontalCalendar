@@ -15,7 +15,7 @@ export default defineConfig({
   },
   plugins: [vue(), VueSetupExtend()],
   build: {
-    outDir: "ccg-ui", //输出文件名称
+    outDir: "ccg-ui-dist", //输出文件名称
     lib: {
       entry: path.resolve(__dirname, "./src/components/index.ts"), //指定组件编译入口文件
       name: "ccg-ui",
@@ -27,7 +27,7 @@ export default defineConfig({
       output: {
         // 在 UMD 构建模式下为这些外部化的依赖提供一个全局变量
         globals: {
-          vue: "Vue",
+          vue: "Vue"
         },
       },
     }, // rollup打包配置

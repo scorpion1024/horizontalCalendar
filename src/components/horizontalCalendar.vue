@@ -68,7 +68,6 @@ const changeDate = (val: string | Date) => {
     val = typeof val === "string" ? new Date(val) : val;
     const lastDate = pageInfo.dateList.pop();
     setDateList(lastDate?.date || props.endDate, val);
-    const [firstDateNoode] = pageInfo.dateList.slice(0, 1);
     emits("changeDate", val);
     showCalendar.value = false;
   }
