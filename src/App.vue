@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref } from "vue";
 import { formatDate } from "./utils/date";
-const thisDate = ref("2023-04-10");
+const thisDate = ref("2024-03-10");
 const setDate = (val: Date): void => {
   thisDate.value = formatDate(val);
 };
