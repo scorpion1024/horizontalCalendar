@@ -1,6 +1,5 @@
 /**
- * 
- * @param {*} val 今天明天后天
+ * @param {*} d 今天明天后天
  * @returns hh:mm
  */
 export function getDayName(d: string | Date): string {

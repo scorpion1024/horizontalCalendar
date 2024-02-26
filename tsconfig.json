@@ -9,6 +9,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "esModuleInterop": true,
+    "forceConsistentCasingInFileNames":true,
     "lib": [
       "ESNext",
       "DOM"
